@@ -33,7 +33,7 @@ enableRobotsTXT = true
     #FeelIt theme version
     version = "1.0.X"
     # site description
-    description = "This is My New Hugo Site"
+    description = "Mon blog, en développement"
     # site keywords
     keywords = ["Theme", "Hugo"]
     # site default theme ("light", "dark", "auto")
@@ -208,7 +208,7 @@ enableRobotsTXT = true
             # title shown in home page (HTML format is supported)
             title = ""
             # subtitle shown in home page
-            subtitle = "This is My New Hugo Site"
+            subtitle = "Mon blog, en développement"
             # whether to use typeit animation for subtitle
             typeit = true
             # whether to show social links

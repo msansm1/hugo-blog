@@ -1,12 +1,12 @@
 ---
 title: "Gérer les tests et la couverture de code dans Gitlab-CI"
 description: "Comment gérer les tests et afficher la couverture de code dans Gitlab-CI."
-# 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
-theme_version: '2.8.2'
 date: 2021-05-11
 publishDate: 2021-05-11
 cascade:
-featured_image: '/images/manage_test_coverage/manage_test_coverage_Pipeline_results.png'
+featuredImage: '/images/manage_test_coverage/manage_test_coverage_Pipeline_results.png'
+code:
+  copy: true
 ---
 
 Lorsque vous avez une CI, vous voulez qu'elle exécute les tests et affiche les résultats, ainsi que ce qui a échoué si c'est le cas.

@@ -1,12 +1,11 @@
 ---
 title: "How to use dev services in SpringBoot, almost like Quarkus"
 description: "How to configure and use dev services in SpringBoot, almost like Quarkus, using TestContainers."
-# 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
-theme_version: '2.8.2'
 date: 2024-09-27
 publishDate: 2024-09-27
-cascade:
-  featured_image: '/images/int_testing_mongo_gitlab/int_testing_mongo_gitlab_all_green.png'
+featuredImage: '/images/int_testing_mongo_gitlab/int_testing_mongo_gitlab_all_green.png'
+code:
+  copy: true
 ---
 
 When I started a projet on [Quarkus](https://quarkus.io/), one of the big feature for me with this framework was the dev services. When you add a dependency (extension) like a database on your projet, it comes with a service that will manage automatically the start/stop of a container along with your application in development mode. You also have configuration parameters to set it the way you want, it is truly great !

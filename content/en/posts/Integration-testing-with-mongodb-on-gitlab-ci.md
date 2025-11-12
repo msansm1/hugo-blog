@@ -1,12 +1,11 @@
 ---
 title: "Integration testing with MongoDB on Gitlab-CI"
 description: "How to do integration tests with a MongoDB database as a service on Gitlab-CI."
-# 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
-theme_version: '2.8.2'
 date: 2020-11-19
 publishDate: 2020-11-19
-cascade:
-  featured_image: '/images/int_testing_mongo_gitlab/int_testing_mongo_gitlab_all_green.png'
+featuredImage: '/images/int_testing_mongo_gitlab/int_testing_mongo_gitlab_all_green.png'
+code:
+  copy: true
 ---
 
 At Slickteam our CI-CD platform works with Gitlab-CI, and works well! We are grasping more and more capabilities of the CI project after project, and we want to do things in the best possible way. For one of my project I had written integration tests with the database, and I wanted them to be run automatically on the CI pipeline.

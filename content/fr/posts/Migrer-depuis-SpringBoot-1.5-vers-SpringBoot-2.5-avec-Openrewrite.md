@@ -1,12 +1,11 @@
 ---
 title: "Migrer depuis SpringBoot 1.5 vers SpringBoot 2.5 avec Openrewrite"
 description: "Comment migrer une application depuis SpringBoot 1.5 vers SpringBoot 2.5 avec Openrewrite."
-# 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
-theme_version: '2.8.2'
 date: 2022-08-04
 publishDate: 2022-08-04
-cascade:
-featured_image: '/images/mng_springboot_15_25_migrate/logo.png'
+featuredImage: '/images/mng_springboot_15_25_migrate/logo.png'
+code:
+  copy: true
 ---
 
 Chez [Slickteam](https://slickteam.fr/), nous avons un vieux projet client qui fonctionne avec [SpringBoot](https://spring.io/projects/spring-boot) 1.5 qui est en production.

@@ -1,12 +1,11 @@
 ---
 title: "KTOR and Keycloak - authentication with OpenId"
 description: "How to configure KTOR to use Keycloak as OpenID server."
-# 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
-theme_version: '2.8.2'
 date: 2019-11-07
 publishDate: 2019-11-07
-cascade:
-  featured_image: '/images/ktor_keycloak_openid/ktor_keycloak_openid_keycloak_login.png'
+featuredImage: '/images/ktor_keycloak_openid/ktor_keycloak_openid_keycloak_login.png'
+code:
+  copy: true
 ---
 
 For some time I wanted to try Kotlin, and when I saw that Jetbrains announced the framework KTOR for web applications, it seems to me like a good opportunity to learn more about the language and to discover this new framework.

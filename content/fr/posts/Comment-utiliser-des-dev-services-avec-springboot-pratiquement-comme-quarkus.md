@@ -1,11 +1,11 @@
 ---
 title: "Comment utiliser des dev services dans SpringBoot, pratiquement comme Quarkus"
 description: "Comment utiliser des dev services dans SpringBoot, pratiquement comme Quarkus, en utilisant TestContainers."
-theme_version: '2.8.2'
 date: 2024-09-27
 publishDate: 2024-09-27
-cascade:
-  featured_image: '/images/int_testing_mongo_gitlab/int_testing_mongo_gitlab_all_green.png'
+featuredImage: '/images/int_testing_mongo_gitlab/int_testing_mongo_gitlab_all_green.png'
+code:
+  copy: true
 ---
 
 Lorsque j'ai commencé un projet sur [Quarkus](https://quarkus.io/), une des principales fonctionnalités du framework était pour moi les dev services. 
