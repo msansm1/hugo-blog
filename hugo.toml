@@ -15,8 +15,126 @@ enableRobotsTXT = true
     languageName = 'Français'
     title = 'Blog de Msansm1'
     weight = 1
+    [languages.fr.menu]
+      [[languages.fr.menu.main]]
+        identifier = "posts"
+        pre = ""
+        post = ""
+        name = "Postes"
+        url = "/posts/"
+        title = ""
+        weight = 1
+      [[languages.fr.menu.main]]
+        identifier = "about"
+        pre = ""
+        name = "À propos"
+        url = "/about/"
+        title = ""
+        weight = 2
+    [languages.fr.pagination]
+      # default amount of posts in each pages
+      pagerSize = 12
     [languages.fr.params]
-      subtitle = 'Articles techniques'
+      # site description
+      description = "À propos du blog"
+      # site keywords
+      keywords = ["Thème", "Hugo"]
+      # App icon config
+      [languages.fr.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "Msansm1 Blog"
+        # whether to omit favicon resource links
+        noFavicon = false
+        # modern SVG favicon to use in place of older style .png and .ico files
+        svgFavicon = ""
+        # Android browser theme color
+        themeColor = "#ffffff"
+        # Safari mask icon color
+        iconColor = "#5bbad5"
+        # Windows v8-10 tile color
+        tileColor = "#da532c"
+      # Search config
+      [languages.fr.params.search]
+        enable = true
+        # type of search engine ("lunr", "algolia")
+        type = "algolia"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.fr.params.search.algolia]
+          index = "index.fr"
+          appID = "5B8WK81970"
+          searchKey = "8e34155b33dee72726c906c5efba0d71"
+
+      # About page config
+      [languages.fr.params.about]
+        # whether to enable profile on about page
+        # depends on .Site.Params.home.profile.enable
+        enable = true
+        # whether to enable param layout
+        param = true
+        # title for param layout
+        paramTitle = "Informations Personnelles"
+        # general description of your site
+        # can be write with markdown style
+        description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.id). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
+        # description of your status
+        [[languages.fr.params.about.status]]
+          faIcon = "fa-solid fa-building"
+          title = "Compagnie"
+          desc = "Une petite ESN"
+        [[languages.fr.params.about.status]]
+          title = "Lieu"
+          faIcon = "fa-solid fa-map-marker-alt"
+          desc = "Bretagne"
+        # description of your parameter
+        [[languages.fr.params.about.parameter]]
+          language = "UI/UX"
+          level = "80"
+        [[languages.fr.params.about.parameter]]
+          language = "HTML"
+          level = "70"
+        [[languages.fr.params.about.parameter]]
+          language = "Go"
+          level = "60"
+
+      # Home page config
+      [languages.fr.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.fr.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = "/images/avatar.png"
+          # title shown in home page (HTML format is supported)
+          title = ""
+          # subtitle shown in home page (HTML format is supported)
+          subtitle = "Un thème Hugo simple, élégant et efficace"
+          # whether to use typeit animation for subtitle
+          typeit = true
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = ""
+        # Home page posts
+        [languages.fr.params.home.posts]
+          enable = true
+          # special amount of posts in each home posts page
+          paginate = 6
+          # display image-preview
+          imagePreview = true
 
   [languages.en]
     contentDir = 'content/en'
@@ -53,7 +171,7 @@ enableRobotsTXT = true
     # Author config
     [params.author]
         name = "msansm1"
-        email = "ronan@msansm1.bzh"
+        email = ""
         link = ""
 
     #PWA config
@@ -229,7 +347,7 @@ enableRobotsTXT = true
     # oEmbed config
     [params.oembed]
         # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
-        privacy = false
+        privacy = true
         [params.oembed.facebook]
             # Facebook Aplication Identity and Client Token (<APPID>|<CLIENTTOKEN>)
             accessToken = ""
@@ -300,7 +418,7 @@ enableRobotsTXT = true
         XMPP = ""
         Matrix = ""
         Bilibili = ""
-        Email = "xxxx@xxxx.com"
+        Email = ""
         Resume = "" #goo.gl id
         xda = ""
         kaggle = ""
